@@ -1,0 +1,26 @@
+.nguoidung{
+    width: 100%;
+    height: 1000px;
+    padding: 100px
+}
+.usemanage{
+    height:40%;
+   
+}
+.usetable{
+    height: 60%;
+   
+}
+p{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 30px;
+}
+img{
+    margin-left: 40px;
+    height: 300px;
+    width: 400px;
+}
+.form-select{
+    width: 10px;
+}

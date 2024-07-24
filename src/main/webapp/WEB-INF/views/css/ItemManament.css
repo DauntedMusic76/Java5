@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.anhThoDMM {
+	width: 200px;
+	height: 250px;
+	background-color: cyan;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.anhThoDMM>img {
+	width: 100%;
+	height: 100%;
+}
+
+.category>.row>.col-sm-6>.table-container {
+	height: 200px; /* Adjust the height as needed */
+	overflow-y: auto;
+}
+/* Ensure the table headers align with the table body */
+.table-bordered thead, .table-bordered tbody {
+	display: block;
+}
+
+.table-bordered tbody {
+	max-height: 200px; /* Match the height of the container */
+	overflow-y: auto;
+}
+
+.table-bordered tbody tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.table-bordered thead tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
